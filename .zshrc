@@ -7,12 +7,14 @@ ZSH_THEME="ww"
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias projects="cd ~/Documents/Projects"
+alias today='date +"%d-%m-%Y"'
+alias yesterday='date -v-1d +"%d-%m-%Y"'
 
 # Plugins
 plugins=(git ruby osx zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.zshrc.local
 
 # User configuration
 
