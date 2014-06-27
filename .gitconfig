@@ -1,0 +1,17 @@
+[user]
+  name = Wei Wei
+  email = fraternite@live.cn
+[core]
+  excludesfile = /Users/weiwei/.gitignore_global
+  editor = vim
+[color]
+  ui = always
+[alias]
+  ci = commit
+  co = checkout
+  st = status -sb
+  hist = log --all --graph --decorate --oneline --abbrev-commit
+[push]
+  default = simple
+[credential]
+	helper = osxkeychain
