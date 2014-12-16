@@ -1,2 +1,1 @@
-Bundle 'derekwyatt/vim-scala'
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
